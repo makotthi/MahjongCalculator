@@ -21,6 +21,9 @@ class InputViewController: UIViewController {
         yakuTextField.text = PickerViewTitles.yaku.first
 
         initializePickerView()
+
+        // 画面を触るとpickerViewを閉じるように設定
+        setDismissKeyboard()
     }
 
 }
