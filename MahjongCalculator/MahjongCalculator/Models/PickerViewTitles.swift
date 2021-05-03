@@ -13,6 +13,12 @@ struct PickerViewTitles {
     static let yaku: [String] = Yaku.allCases.map({$0.rawValue})
 }
 
+struct PickerViewTagNumbers {
+    static let humans: Int = 1
+    static let winner: Int = 2
+    static let yaku: Int = 3
+}
+
 enum Humans: String, CaseIterable {
     case four = "四人打ち（四麻）"
     case three = "三人打ち（三麻）"
