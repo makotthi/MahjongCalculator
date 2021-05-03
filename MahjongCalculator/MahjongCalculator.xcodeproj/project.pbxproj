@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E61D48E263FEB0E00BCBCFF /* PickerViewTitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61D48D263FEB0E00BCBCFF /* PickerViewTitles.swift */; };
+		0E61D492264003AC00BCBCFF /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61D491264003AC00BCBCFF /* UIViewControllerExtension.swift */; };
 		0E7B9B0D263E4C5600C8767B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B9B0C263E4C5600C8767B /* AppDelegate.swift */; };
 		0E7B9B0F263E4C5600C8767B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B9B0E263E4C5600C8767B /* SceneDelegate.swift */; };
 		0E7B9B11263E4C5600C8767B /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B9B10263E4C5600C8767B /* InputViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E61D48D263FEB0E00BCBCFF /* PickerViewTitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewTitles.swift; sourceTree = "<group>"; };
+		0E61D491264003AC00BCBCFF /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		0E7B9B09263E4C5600C8767B /* MahjongCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MahjongCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7B9B0C263E4C5600C8767B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E7B9B0E263E4C5600C8767B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E61D48C263FEA6200BCBCFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E61D48D263FEB0E00BCBCFF /* PickerViewTitles.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0E61D4902640036900BCBCFF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E61D491264003AC00BCBCFF /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		0E7B9B00263E4C5600C8767B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +76,8 @@
 		0E7B9B0B263E4C5600C8767B /* MahjongCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				0E61D4902640036900BCBCFF /* Extensions */,
+				0E61D48C263FEA6200BCBCFF /* Models */,
 				0E7B9B21263FD27200C8767B /* Controllers */,
 				0E7B9B0C263E4C5600C8767B /* AppDelegate.swift */,
 				0E7B9B0E263E4C5600C8767B /* SceneDelegate.swift */,
@@ -153,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E61D48E263FEB0E00BCBCFF /* PickerViewTitles.swift in Sources */,
+				0E61D492264003AC00BCBCFF /* UIViewControllerExtension.swift in Sources */,
 				0E7B9B11263E4C5600C8767B /* InputViewController.swift in Sources */,
 				0E7B9B0D263E4C5600C8767B /* AppDelegate.swift in Sources */,
 				0E7B9B0F263E4C5600C8767B /* SceneDelegate.swift in Sources */,
