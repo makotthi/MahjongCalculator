@@ -9,9 +9,9 @@ import UIKit
 
 class InputViewController: UIViewController {
     
-    @IBOutlet weak var humansTextField: UITextField!
-    @IBOutlet weak var winnerTextField: UITextField!
-    @IBOutlet weak var yakuTextField: UITextField!
+    @IBOutlet private weak var humansTextField: UITextField!
+    @IBOutlet private weak var winnerTextField: UITextField!
+    @IBOutlet private weak var yakuTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,6 @@ class InputViewController: UIViewController {
 
 // MARK: Action
 extension InputViewController {
-    @IBAction func calculateButtonTapped(_ sender: Any) {
+    @IBAction private func calculateButtonTapped(_ sender: Any) {
     }
 }
