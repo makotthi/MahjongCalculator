@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E61D48A263FE1C100BCBCFF /* MyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61D489263FE1C100BCBCFF /* MyPickerView.swift */; };
 		0E7B9B0D263E4C5600C8767B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B9B0C263E4C5600C8767B /* AppDelegate.swift */; };
 		0E7B9B0F263E4C5600C8767B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B9B0E263E4C5600C8767B /* SceneDelegate.swift */; };
 		0E7B9B11263E4C5600C8767B /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B9B10263E4C5600C8767B /* InputViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E61D489263FE1C100BCBCFF /* MyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerView.swift; sourceTree = "<group>"; };
 		0E7B9B09263E4C5600C8767B /* MahjongCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MahjongCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7B9B0C263E4C5600C8767B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E7B9B0E263E4C5600C8767B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E61D482263FDFFD00BCBCFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E61D488263FE14A00BCBCFF /* MyPickerView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E61D488263FE14A00BCBCFF /* MyPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				0E61D489263FE1C100BCBCFF /* MyPickerView.swift */,
+			);
+			path = MyPickerView;
+			sourceTree = "<group>";
+		};
 		0E7B9B00263E4C5600C8767B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +74,7 @@
 		0E7B9B0B263E4C5600C8767B /* MahjongCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				0E61D482263FDFFD00BCBCFF /* Views */,
 				0E7B9B21263FD27200C8767B /* Controllers */,
 				0E7B9B0C263E4C5600C8767B /* AppDelegate.swift */,
 				0E7B9B0E263E4C5600C8767B /* SceneDelegate.swift */,
@@ -153,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E61D48A263FE1C100BCBCFF /* MyPickerView.swift in Sources */,
 				0E7B9B11263E4C5600C8767B /* InputViewController.swift in Sources */,
 				0E7B9B0D263E4C5600C8767B /* AppDelegate.swift in Sources */,
 				0E7B9B0F263E4C5600C8767B /* SceneDelegate.swift in Sources */,
